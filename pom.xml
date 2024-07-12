@@ -15,7 +15,7 @@
         <sonar.host.url>65.0.134.218:9000</sonar.host.url>
         <sonar.login>admin</sonar.login>
         <sonar.password>password</sonar.password>
-        </properties>
+    </properties>
 
     <properties>
 
