@@ -12,15 +12,8 @@
 
     <url>https://spring-petclinic.github.io/</url>
 
-    
-
     <properties>
 
-    <properties>
-    <sonar.host.url>65.0.134.218:9000</sonar.host.url>
-    <sonar.login>admin</sonar.login>
-    <sonar.password>password</sonar.password> 
-    </properties>
      <!-- Generic properties -->
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -88,6 +81,11 @@
         <docker.jib-maven-plugin.version>2.6.0</docker.jib-maven-plugin.version>
         <docker.image.prefix>springcommunity</docker.image.prefix>
 
+        </properties>
+        <properties>
+        <sonar.host.url>65.0.134.218:9000</sonar.host.url>
+        <sonar.login>admin</sonar.login>
+        <sonar.password>password</sonar.password>
         </properties>
 
     <dependencyManagement>
