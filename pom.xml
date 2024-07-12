@@ -11,6 +11,11 @@
     <description>A Spring Framework application based on JSP, Spring MVC, Spring Data JPA, Hibernate and JDBC</description>
 
     <url>https://spring-petclinic.github.io/</url>
+    <properties>
+        <sonar.host.url>65.0.134.218:9000</sonar.host.url>
+        <sonar.login>admin</sonar.login>
+        <sonar.password>password</sonar.password>
+        </properties>
 
     <properties>
 
@@ -82,12 +87,8 @@
         <docker.image.prefix>springcommunity</docker.image.prefix>
 
         </properties>
+
         
-        <properties>
-        <sonar.host.url>65.0.134.218:9000</sonar.host.url>
-        <sonar.login>admin</sonar.login>
-        <sonar.password>password</sonar.password>
-        </properties>
 
     <dependencyManagement>
         <dependencies>
