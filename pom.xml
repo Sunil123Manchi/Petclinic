@@ -294,6 +294,20 @@
 
     </dependencies>
 
+         <distributionManagement>
+<repository>
+<id>nexus</id>
+<name>Maven-Web-Application-Release</name>
+<url>http://3.110.131.130:8081/repository/Maven-web-application-Release/</url>
+</repository>
+<snapshotRepository>
+<id>nexus</id>
+<name>Maven-Web-Snapshot-Repository</name>
+<url>http://3.110.131.130:8081/repository/Maven-web-application-Snapshot/</url>
+</snapshotRepository>
+</distributionManagement>
+
+
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
         <defaultGoal>install</defaultGoal>
