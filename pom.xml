@@ -517,12 +517,13 @@
                 <jdbc.url>jdbc:mysql://localhost:3306/petclinic?useUnicode=true</jdbc.url>
                 <jdbc.username>petclinic</jdbc.username>
                 <jdbc.password>petclinic</jdbc.password>
-            </properties>
-            <properties>
                 <sonar.host.url>http://65.1.65.50:9000/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
                 <sonar.password>password</sonar.password>
             </properties>
+            
+                
+            
 
             <dependencies>
                 <dependency>
